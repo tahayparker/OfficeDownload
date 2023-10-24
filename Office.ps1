@@ -81,177 +81,235 @@ ElseIf ($VersionSelection -eq '5') {
 
 if (($VersionSelection -eq '1') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '1')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProPlusRetail&platform=x64&language=en-us&version=O15GA'
+    $ProdID = 'ProPlusRetail'
 }
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '2')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProfessionalRetail&platform=x64&language=en-us&version=O15GA'
+    $ProdID = 'ProfessionalRetail'
 }
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '3')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=StandardRetail&platform=x64&language=en-us&version=O15GA'
-}
+}   $ProdID = 'StandardRetail'
+
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '4')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=PersonalRetail&platform=x64&language=en-us&version=O15GA'
+    $ProdID = 'PersonalRetail'
 }
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '5')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusinessRetail&platform=x64&language=en-us&version=O15GA'
+    $ProdID = 'HomeBusinessRetail'
 }
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '6')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudentRetail&platform=x64&language=en-us&version=O15GA'
+    $ProdID = 'HomeStudentRetail'
 }
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '1')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProPlusRetail&platform=x86&language=en-us&version=O15GA'
+    $ProdID = 'ProPlusRetail'
 }
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '2')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProfessionalRetail&platform=x86&language=en-us&version=O15GA'
+    $ProdID = 'ProfessionalRetail'
 }
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '3')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=StandardRetail&platform=x86&language=en-us&version=O15GA'
+    $ProdID = 'StandardRetail'
 }
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '4')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=PersonalRetail&platform=x86&language=en-us&version=O15GA'
+    $ProdID = 'PersonalRetail'
 }
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '5')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusinessRetail&platform=x86&language=en-us&version=O15GA'
+    $ProdID = 'HomeBusinessRetail'
 }
 elseif (($VersionSelection -eq '1') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '6')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudentRetail&platform=x86&language=en-us&version=O15GA'
+    $ProdID = 'HomeStudentRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '1')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProPlusRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'ProPlusRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '2')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProfessionalRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'ProfessionalRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '3')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=StandardRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'StandardRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '4')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=PersonalRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'PersonalRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '5')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusinessRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'HomeBusinessRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '6')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudentRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'HomeStudentRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '1')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProPlusRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'ProPlusRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '2')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProfessionalRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'ProfessionalRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '3')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=StandardRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'StandardRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '4')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=PersonalRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'PersonalRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '5')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusinessRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'HomeBusinessRetail'
 }
 elseif (($VersionSelection -eq '2') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '6')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudentRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'HomeStudentRetail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '1')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProPlus2019Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'ProPlus2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '2')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Professional2019Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'Professional2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '3')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Standard2019Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'Standard2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '4')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Personal2019Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'Personal2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '5')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusiness2019Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'HomeBusiness2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '6')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudent2019Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'HomeStudent2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '1')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProPlus2019Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'ProPlus2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '2')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Professional2019Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'Professional2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '3')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Standard2019Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'Standard2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '4')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Personal2019Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'Personal2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '5')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusiness2019Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'HomeBusiness2019Retail'
 }
 elseif (($VersionSelection -eq '3') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '6')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudent2019Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'HomeStudent2019Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '1')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProPlus2021Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'ProPlus2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '2')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Professional2021Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'Professional2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '3')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Professional2021Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'Professional2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '4')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Personal2021Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'Personal2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '5')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusiness2021Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'HomeBusiness2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '6')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudent2021Retail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'HomeStudent2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '1')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=ProPlus2021Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'ProPlus2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '2')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Professional2021Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'Professional2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '3')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Standard2021Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'Standard2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '4')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=Personal2021Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'Personal2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '5')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusiness2021Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'HomeBusiness2021Retail'
 }
 elseif (($VersionSelection -eq '4') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '6')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudent2021Retail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'HomeStudent2021Retail'
 }
 elseif (($VersionSelection -eq '5') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '1')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365ProPlusRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'O365ProPlusRetail'
 }
 elseif (($VersionSelection -eq '5') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '2')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365BusinessRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'O365BusinessRetail'
 }
 elseif (($VersionSelection -eq '5') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '3')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365SmallBusPremRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'O365SmallBusPremRetail'
 }
 elseif (($VersionSelection -eq '5') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '4')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365HomePremRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'O365HomePremRetail'
 }
 elseif (($VersionSelection -eq '5') -and ($ArchSelection -eq '1') -and ($TypeSelection -eq '5')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365EduCloudRetail&platform=x64&language=en-us&version=O16GA'
+    $ProdID = 'O365EduCloudRetail'
 }
 elseif (($VersionSelection -eq '5') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '1')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365ProPlusRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'O365ProPlusRetail'
 }
 elseif (($VersionSelection -eq '5') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '2')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365BusinessRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'O365BusinessRetail'
 }
 elseif (($VersionSelection -eq '5') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '3')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365SmallBusPremRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'O365SmallBusPremRetail'
 }
 elseif (($VersionSelection -eq '5') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '4')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365HomePremRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'O365HomePremRetail'
 }
 elseif (($VersionSelection -eq '5') -and ($ArchSelection -eq '2') -and ($TypeSelection -eq '5')) {
     $url = 'https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=O365EduCloudRetail&platform=x86&language=en-us&version=O16GA'
+    $ProdID = 'O365EduCloudRetail'
 }
 
 # Ask users which apps they dont want to install, if 
@@ -290,15 +348,19 @@ $AppSelection = $AppSelection.Trim()
 $OfficeConfig = @"
 <Configuration>
     <Add OfficeClientEdition="$($officeArchs[$ArchSelection])">
-        <Product ID="$($officeTypes[$TypeSelection])">
+        <Product ID="$ProdID">
             <Language ID="MatchOS" />`n
 "@
-if ($AppSelection -ne $null -and $AppSelection.Count -gt 0) {
+if ($null -ne $AppSelection -and $AppSelection.Count -gt 0) {
     $OfficeConfig += "            <ExcludeApp ID='" + ($officeApps[$AppSelection[0]]) + "' />`n"
     for ($i = 1; $i -lt $AppSelection.Count; $i++) {
         $OfficeConfig += "            <ExcludeApp ID='" + ($officeApps[$AppSelection[$i]]) + "' />`n"
     }
 }
+elseif ($null -eq $AppSelection -and $AppSelection.Count -eq 0) {
+    OfficeConfig += ""
+}
+
 $OfficeConfig += @"
         </Product>
     </Add>
