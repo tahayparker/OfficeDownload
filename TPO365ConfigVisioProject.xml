@@ -1,0 +1,74 @@
+<Configuration ID="58ac15a0-7d13-4ee0-9117-81b628b8c70c">
+  <Info Description="" />
+  <Add OfficeClientEdition="64" Channel="Current" MigrateArch="TRUE">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="MatchOS" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+    <Product ID="VisioProRetail">
+      <Language ID="MatchOS" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+    <Product ID="ProjectProRetail">
+      <Language ID="MatchOS" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+    <Setup Name="Company" Value="University of Wollongong Dubai" />
+    <User Key="software\microsoft\office\16.0\common\sharepointintegration" Name="hidelearnmorelink" Value="1" Type="REG_DWORD" App="office16" Id="L_HideTheLearnMoreAboutSharePointHyperlink" />
+    <User Key="software\microsoft\office\16.0\common\sharepointintegration" Name="productname" Value="UOWD OneDrive" Type="REG_SZ" App="office16" Id="L_ChangeLabelOfSaveToSharePoint" />
+    <User Key="software\microsoft\office\16.0\common\internet" Name="opendirectlyinapp" Value="1" Type="REG_DWORD" App="office16" Id="L_OpenDirectlyInApp" />
+    <User Key="software\microsoft\office\16.0\common" Name="disabledocumentchat" Value="0" Type="REG_DWORD" App="office16" Id="L_DocumentChat" />
+    <User Key="software\microsoft\office\16.0\common\toolbars" Name="fontview" Value="1" Type="REG_DWORD" App="office16" Id="L_Listfontnamesintheirfont" />
+    <User Key="software\microsoft\office\16.0\common\toolbars" Name="tooltips" Value="0" Type="REG_DWORD" App="office16" Id="L_DoNotShowScreenTipsontoolbars" />
+    <User Key="software\microsoft\office\16.0\common\toolbars" Name="showkbdshortcuts" Value="1" Type="REG_DWORD" App="office16" Id="L_ShowshortcutkeysinScreenTips" />
+    <User Key="software\microsoft\office\16.0\excel\options" Name="recognizesmarttags" Value="2" Type="REG_DWORD" App="office16" Id="L_EnableAdditionalActionsInExcel" />
+    <User Key="software\microsoft\office\16.0\common\autocorrect" Name="acoptions" Value="1" Type="REG_DWORD" App="office16" Id="L_ShowAutoCorrectOptionsbuttons" />
+    <User Key="software\microsoft\office\16.0\common\autocorrect" Name="correcttwoinitialcapitals" Value="1" Type="REG_DWORD" App="office16" Id="L_CorrectTWoINitialCApitals" />
+    <User Key="software\microsoft\office\16.0\common\autocorrect" Name="capitalizesentence" Value="1" Type="REG_DWORD" App="office16" Id="L_Capitalizefirstletterofsentence" />
+    <User Key="software\microsoft\office\16.0\common\autocorrect" Name="capitalizenamesofdays" Value="1" Type="REG_DWORD" App="office16" Id="L_Capitalizenamesofdays" />
+    <User Key="software\microsoft\office\16.0\common\autocorrect" Name="togglecapslock" Value="1" Type="REG_DWORD" App="office16" Id="L_CorrectaccidentaluseofcAPSLOCKkey" />
+    <User Key="software\microsoft\office\16.0\common\internet" Name="donotcheckifofficeishtmleditor" Value="0" Type="REG_DWORD" App="office16" Id="L_CheckifOfficeisthedefaulteditorforWebpagescreatedinOffice" />
+    <User Key="software\microsoft\office\16.0\common\internet" Name="opendocumentsreadwritewhilebrowsing" Value="1" Type="REG_DWORD" App="office16" Id="L_OpenOfficedocumentsasreadwritewhilebrowsing" />
+    <User Key="software\microsoft\office\16.0\common\internet" Name="opendirectlyinapp" Value="1" Type="REG_DWORD" App="office16" Id="L_OpenOfficeDocumentDirectlyInOfficeApplication" />
+    <User Key="software\microsoft\office\16.0\common\internet" Name="allowpng" Value="1" Type="REG_DWORD" App="office16" Id="L_AllowPNGasanoutputformat" />
+    <User Key="software\microsoft\office\16.0\common" Name="sendcustomerdata" Value="0" Type="REG_DWORD" App="office16" Id="L_Sendcustomerdata" />
+    <User Key="software\microsoft\shared tools\proofing tools\1.0\office" Name="flagrepeatedword" Value="1" Type="REG_DWORD" App="office16" Id="L_FlagRepeatedWords" />
+    <User Key="software\microsoft\office\16.0\common\general" Name="shownfirstrunoptin" Value="1" Type="REG_DWORD" App="office16" Id="L_DisableOptinWizard" />
+    <User Key="software\microsoft\office\16.0\common\languageresources\enabledlanguages" Name="ar-sa" Value="3" Type="REG_DWORD" App="office16" Id="L_ArabicSaudiArabia" />
+    <User Key="software\microsoft\office\16.0\common\languageresources\enabledlanguages" Name="ar-ae" Value="3" Type="REG_DWORD" App="office16" Id="L_ArabicUAE" />
+    <User Key="software\microsoft\office\16.0\common\languageresources\enabledlanguages" Name="en-us" Value="3" Type="REG_DWORD" App="office16" Id="L_EnglishUS" />
+    <User Key="software\microsoft\office\16.0\common\languageresources\enabledlanguages" Name="hi-in" Value="3" Type="REG_DWORD" App="office16" Id="L_Hindi" />
+    <User Key="software\microsoft\office\16.0\common\languageresources\enabledlanguages" Name="ur-pk" Value="3" Type="REG_DWORD" App="office16" Id="L_Urdu" />
+    <User Key="software\microsoft\office\16.0\common\general" Name="pasteoptions" Value="1" Type="REG_DWORD" App="office16" Id="L_ShowPasteOptionsbuttons" />
+    <User Key="software\microsoft\office\16.0\osm" Name="enableupload" Value="0" Type="REG_DWORD" App="office16" Id="L_OfficeInventoryAgentUpload" />
+    <User Key="software\microsoft\office\16.0\osm" Name="enablefileobfuscation" Value="1" Type="REG_DWORD" App="office16" Id="L_OfficeInventoryAgentFilemetadataObfuscation" />
+    <User Key="software\microsoft\office\16.0\osm" Name="enablelogging" Value="0" Type="REG_DWORD" App="office16" Id="L_EnableLogging" />
+    <User Key="software\microsoft\office\16.0\common\feedback" Name="surveyenabled" Value="0" Type="REG_DWORD" App="office16" Id="L_SendSurvey" />
+    <User Key="software\microsoft\office\16.0\gfx" Name="disablescreenshotautohyperlink" Value="1" Type="REG_DWORD" App="office16" Id="L_DisableScreenshotAutoHyperlink" />
+    <User Key="software\microsoft\office\16.0\common\general" Name="skydrivesigninoption" Value="1" Type="REG_DWORD" App="office16" Id="L_ShowSkyDriveSignIn" />
+    <User Key="software\microsoft\office\16.0\common\licensing" Name="hidemanageaccountlink" Value="1" Type="REG_DWORD" App="office16" Id="L_HideManageAccountLink" />
+    <User Key="software\microsoft\office\16.0\excel" Name="dontshowwhatsnew" Value="1" Type="REG_DWORD" App="office16" Id="L_DontShowWhatsNewInformationExcel" />
+    <User Key="software\microsoft\office\16.0\powerpoint" Name="dontshowwhatsnew" Value="1" Type="REG_DWORD" App="office16" Id="L_DontShowWhatsNewInformationPowerPoint" />
+    <User Key="software\microsoft\office\16.0\visio" Name="dontshowwhatsnew" Value="1" Type="REG_DWORD" App="office16" Id="L_DontShowWhatsNewInformationVisio" />
+    <User Key="software\microsoft\office\16.0\outlook" Name="dontshowwhatsnew" Value="1" Type="REG_DWORD" App="office16" Id="L_DontShowWhatsNewInformationOutlook" />
+    <User Key="software\microsoft\office\16.0\onenote" Name="dontshowwhatsnew" Value="1" Type="REG_DWORD" App="office16" Id="L_DontShowWhatsNewInformationOneNote" />
+    <User Key="software\microsoft\office\16.0\word" Name="dontshowwhatsnew" Value="1" Type="REG_DWORD" App="office16" Id="L_DontShowWhatsNewInformationWord" />
+    <User Key="software\microsoft\office\16.0\common" Name="linkedin" Value="0" Type="REG_DWORD" App="office16" Id="L_AllowLinkedInFeatures" />
+    <User Key="software\microsoft\office\16.0\common\general" Name="disablecomingsoon" Value="0" Type="REG_DWORD" App="office16" Id="L_DisableComingSoon" />
+    <User Key="software\microsoft\office\16.0\common\personalization" Name="homeuseprogram" Value="0" Type="REG_DWORD" App="office16" Id="L_PersonalizationHomeUseProgram" />
+    <User Key="software\microsoft\office\16.0\common\general" Name="recommendeddocumentsenabled" Value="0" Type="REG_DWORD" App="office16" Id="L_OfficeRecommendedDocuments" />
+    <User Key="software\microsoft\office\16.0\common\links" Name="browserchoice" Value="0" Type="REG_DWORD" App="office16" Id="L_M365LinksBrowserChoice" />
+  </AppSettings>
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
