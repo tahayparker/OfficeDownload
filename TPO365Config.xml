@@ -3,18 +3,15 @@
   <Add OfficeClientEdition="64" Channel="Current" MigrateArch="TRUE">
     <Product ID="O365ProPlusRetail">
       <Language ID="MatchOS" />
+      <ExcludeApp ID="Access" />
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
-    </Product>
-    <Product ID="VisioProRetail">
-      <Language ID="MatchOS" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="Lync" />
-    </Product>
-    <Product ID="ProjectProRetail">
-      <Language ID="MatchOS" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="SharePointDesigner" />
+      <ExcludeApp ID="Teams" />
+      <ExcludeApp ID="Visio" />
     </Product>
   </Add>
   <Property Name="SharedComputerLicensing" Value="0" />
