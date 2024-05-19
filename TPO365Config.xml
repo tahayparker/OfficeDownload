@@ -12,6 +12,7 @@
       <ExcludeApp ID="SharePointDesigner" />
       <ExcludeApp ID="Teams" />
       <ExcludeApp ID="Visio" />
+      <ExcludeApp ID="Bing" />
     </Product>
   </Add>
   <Property Name="SharedComputerLicensing" Value="0" />
