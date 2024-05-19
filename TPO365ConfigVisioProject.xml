@@ -5,6 +5,7 @@
       <Language ID="MatchOS" />
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Bing" />
     </Product>
     <Product ID="VisioProRetail">
       <Language ID="MatchOS" />
