@@ -1,7 +1,7 @@
-<Configuration ID="58ac15a0-7d13-4ee0-9117-81b628b8c70c">
+<Configuration ID="9a0f880b-2451-4c97-9ef2-bd13045793fb">
   <Info Description="" />
   <Add OfficeClientEdition="64" Channel="Current" MigrateArch="TRUE">
-    <Product ID="O365ProPlusRetail">
+    <Product ID="O365ProPlusEEANoTeamsRetail">
       <Language ID="MatchOS" />
       <ExcludeApp ID="Access" />
       <ExcludeApp ID="Groove" />
