@@ -21,5 +21,7 @@
   <Property Name="SCLCacheOverride" Value="0" />
   <Updates Enabled="TRUE" />
   <RemoveMSI />
+  <AppSettings>
+  </AppSettings>
   <Display Level="Full" AcceptEULA="TRUE" />
 </Configuration>
