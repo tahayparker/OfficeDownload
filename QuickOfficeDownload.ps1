@@ -1,7 +1,10 @@
 # Download Office - Word, Excel, Powerpoint
 
-# Request for Admin priveleges if not already admin
+# Request for Admin priveleges if not already admin to run the entire script
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
+
+# Get Current Path
+$CurrentPath = Get-Location
 
 # Make a temp dir
 mkdir C:\temp
@@ -10,7 +13,7 @@ mkdir C:\temp
 cd C:\temp
 
 # Download the setup file
-Invoke-WebRequest https://raw.githubusercontent.com/tahayparker/OfficeDownload/refs/heads/main/setup.exe -Output setup.exe
+Invoke-WebRequest https://raw.githubusercontent.com/tahayparker/OfficeDownload/refs/heads/main/setup.exe -OutFile setup.exe
 
 # Warn user to not open the apps
 Add-Type -AssemblyName PresentationCore,PresentationFramework
@@ -18,6 +21,9 @@ Add-Type -AssemblyName PresentationCore,PresentationFramework
 
 # Run the setup file
 Start-Process -FilePath C:\temp\setup.exe -ArgumentList "/configure https://raw.githubusercontent.com/tahayparker/OfficeDownload/refs/heads/main/TPPublic.xml" -Wait
+
+# Change back to the original path
+cd $CurrentPath
 
 # Remove the temp dir
 Remove-Item C:\temp -Recurse -Force
