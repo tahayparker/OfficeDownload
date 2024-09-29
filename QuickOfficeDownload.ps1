@@ -1,5 +1,8 @@
 # Download Office - Word, Excel, Powerpoint
 
+# Request for Admin priveleges if not already admin
+if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
+
 # Make a temp dir
 mkdir C:\temp
 
