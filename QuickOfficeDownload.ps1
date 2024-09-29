@@ -29,7 +29,7 @@ cd $CurrentPath
 Remove-Item C:\temp -Recurse -Force
 
 # Run get.activated.win script to activate Office
-& ([ScriptBlock]::Create((irm https://get.activated.win))) /HWID /S
+& ([ScriptBlock]::Create((irm https://get.activated.win))) /Ohook /S
 
 # Inform user via msgbox alert
 [System.Windows.MessageBox]::Show('Office (Word, Excel, PowerPoint) has been installed successfully! You may now use apps without any issue.', 'Office Download', 'OK', 'Information')
